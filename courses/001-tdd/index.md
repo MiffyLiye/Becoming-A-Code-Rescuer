@@ -54,16 +54,23 @@ https://miffyliye.org/
 ---
 
 ## 实例化需求  
-（Specification By Example）
 
 * 通过实例去分析和沟通需求
 * 实例化需求的过程  
+<small>
 从目标中获取范围  
 用实例进行描述  
 精炼需求说明  
 自动化验证，无需改变需求说明  
 频繁验证  
-积累出文档系统
+积累出组织良好、易于查找、前后一致的活文档
+</small>
+<small>
+> 如果没有活文档，任何重大的重构都是自寻死路  
+> Without live documentation, any major refactoring would be a suicide  
+> 
+> From [*Specification by Example:How Successful Teams Deliver the Right Software*](https://book.douban.com/subject/6515486/)
+</small>
 
 ---
 
