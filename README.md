@@ -12,5 +12,5 @@ npm install -g reveal-md
 ## 开始课程
 
 ```
-reveal-md courses/000-introduction/index.md --theme white
+reveal-md index.md --theme white
 ```
