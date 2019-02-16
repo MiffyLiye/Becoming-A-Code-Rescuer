@@ -8,12 +8,12 @@ https://miffyliye.org/
 
 ## 长期项目需要战略编程
 
-* 战术编程复杂度快速增加
-* 战略编程长远投资控制复杂度
+* 战术编程初期速度快，后期复杂度显著增加
+* 战略编程长远投资控制复杂度，后期速度快
 
-> <img class="plain"  src="strategic-vs-tactical.jpeg"/>
+> <img class="plain"  src="strategic-vs-tactical.png"/>
 
-> Image from *[A Philosophy of Software Design](https://book.douban.com/subject/30218046/)*
+> <small>Image from *[John Ousterhout: "A Philosophy of Software Design" | Talks at Google](https://www.youtube.com/watch?v=bmSAYlu0NcY)*</small>
 
 ---
 
@@ -21,7 +21,7 @@ https://miffyliye.org/
 
 * 创业初期紧张的进度压力鼓励人们进行战术编程
 * Facebook初期偏战术: Move fast and break things.
-* Facebook后来偏战略: Move fast with stable infra.
+* Facebook后来偏战略: Move fast with stable infrastructure.
 * Google创业初期偏战略也成功了
 
 ---
