@@ -20,8 +20,8 @@ https://miffyliye.org/
 ## 创业初期并不是只能战术编程
 
 * 创业初期紧张的进度压力鼓励人们进行战术编程
-* Facebook初期偏战术: Move fast and break things.
-* Facebook后来偏战略: Move fast with stable infrastructure.
+* Facebook初期: Move fast and break things.
+* Facebook后来: Move fast with stable infrastructure.
 * Google创业初期偏战略也成功了
 
 ---
