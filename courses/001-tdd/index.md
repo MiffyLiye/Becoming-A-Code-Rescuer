@@ -216,10 +216,18 @@ https://miffyliye.org/
 
 ---
 
+### Follow principles, not rules.
+
+---
+
 ## 参考阅读
+
+<small>
 
 * [John Ousterhout (2018), *A Philosophy of Software Design*](https://book.douban.com/subject/30218046/)
 * [Robert C. Martin (2017), *Clean Architecture*](https://book.douban.com/subject/26915970/)
 * [Martin Fowler (2018), *Refactoring - Improving the Design of Existing Code*](https://book.douban.com/subject/30332135/)
 * [John Ferguson Smart (2014), *BDD in Action*](https://book.douban.com/subject/24849622/)
 * [ Gerard Meszaros (2007), *xUnit Test Patterns - Refactoring Test Code*](https://book.douban.com/subject/1859393/)
+
+</small>
