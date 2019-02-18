@@ -31,6 +31,16 @@ https://miffyliye.org/
 不写任何多余的产品代码，除非它刚好能让失败的测试通过
 </small>
 
+----
+
+## 如何确定测试是正确的
+
+* <p class="fragment fade-in" style="color:red">实现有误时测试能红</p>
+
+* <p class="fragment fade-in" style="color:green">实现正确时测试能绿</p>
+
+* <p class="fragment fade-in" style="color:blue">补测试后，可修改实现，验证测试能红</p>
+
 ---
 
 ## 为什么使用TDD
@@ -41,6 +51,20 @@ https://miffyliye.org/
 * 最新的说明文档（Live Document）
 * 安全重构
 * ......
+
+----
+
+## TDD能改善架构设计吗
+
+* <p class="fragment fade-in">实现代码内部设计依然可以是大泥球</p>
+* <p class="fragment fade-in">减少重构的代价，提高重构的性价比</p>
+
+<small class="fragment fade-in">
+> 如果没有活文档，任何重大的重构都是自寻死路  
+> Without live documentation, any major refactoring would be a suicide  
+> 
+> From [*Specification by Example:How Successful Teams Deliver the Right Software*](https://book.douban.com/subject/6515486/)
+</small>
 
 ---
 
@@ -65,12 +89,6 @@ https://miffyliye.org/
 频繁验证  
 积累出组织良好、易于查找、前后一致的活文档
 </small>
-<small>
-> 如果没有活文档，任何重大的重构都是自寻死路  
-> Without live documentation, any major refactoring would be a suicide  
-> 
-> From [*Specification by Example:How Successful Teams Deliver the Right Software*](https://book.douban.com/subject/6515486/)
-</small>
 
 ---
 
@@ -80,7 +98,7 @@ https://miffyliye.org/
 * 练习分解问题
 * 选择问题解决顺序
 
----
+----
 
 ## 模块划分
 
@@ -88,7 +106,20 @@ https://miffyliye.org/
 保持模块的相对独立
 * 各模块的职责单一明确，易于理解
 
+----
+
+* 某模块产生将要被猜的数字
+* 某模块判断被猜测的数字和猜测的数字之间的差异，给出反馈
+* ......
+* 某模块协调游戏流程
+
 ---
+
+## 实践
+
+某模块判断被猜测的数字和猜测的数字之间的差异，给出反馈
+
+----
 
 ## 测试驱动
 
@@ -118,6 +149,24 @@ https://miffyliye.org/
 * 直接实现
 * ......
 
+----
+
+## 重构
+
+* 降低总体复杂度 $$C = \sum_{p} c_p \cdot t_p$$
+* 复杂度的表现  
+<small>
+霰弹式修改  
+高认知负载  
+不知道是否有遗漏的修改  
+......
+</small>
+* 复杂度的来源  
+<small>
+依赖  
+晦涩
+</small>
+
 ---
 
 ## 测试编写的FIRST原则
@@ -140,3 +189,13 @@ https://miffyliye.org/
 ---
 
 ## 问题讨论
+
+---
+
+## 参考阅读
+
+* [John Ousterhout (2018), *A Philosophy of Software Design*](https://book.douban.com/subject/30218046/)
+* [Robert C. Martin (2017), *Clean Architecture*](https://book.douban.com/subject/26915970/)
+* [Martin Fowler (2018), *Refactoring - Improving the Design of Existing Code*](https://book.douban.com/subject/30332135/)
+* [John Ferguson Smart (2014), *BDD in Action*](https://book.douban.com/subject/24849622/)
+* [ Gerard Meszaros (2007), *xUnit Test Patterns - Refactoring Test Code*](https://book.douban.com/subject/1859393/)
