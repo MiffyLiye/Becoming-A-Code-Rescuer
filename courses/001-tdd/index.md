@@ -2,8 +2,6 @@
 
 Produced by 王韬 Wang, Tao
 
-https://miffyliye.org/
-
 ---
 
 ## 课程安排

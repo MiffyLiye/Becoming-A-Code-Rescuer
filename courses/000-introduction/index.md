@@ -2,8 +2,6 @@
 
 Produced by 王韬 Wang, Tao
 
-https://miffyliye.org/
-
 ---
 
 ## 长期项目需要战略编程
@@ -11,7 +9,7 @@ https://miffyliye.org/
 * 战术编程初期速度快，后期复杂度显著增加
 * 战略编程长远投资控制复杂度，后期速度快
 
-> <img class="plain"  src="strategic-vs-tactical.png"/>
+> <img class="plain"  src="./strategic-vs-tactical.png"/>
 
 > <small>Image from *[John Ousterhout: "A Philosophy of Software Design" | Talks at Google](https://www.youtube.com/watch?v=bmSAYlu0NcY)*</small>
 
