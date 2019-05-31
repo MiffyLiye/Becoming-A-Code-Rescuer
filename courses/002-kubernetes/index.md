@@ -980,6 +980,33 @@ spec:
 
 ---
 
+## Volume
+
+* Disk / Block
+* NAS / File
+
+----
+
+### Disk / Block
+
+* 偏底层硬件
+* 可选择文件系统(ext4/xfs/...)进行格式化
+* 单应用独占
+* 高性能
+* 常用于数据库(mongo/elasticsearch/kafka)
+
+----
+
+### NAS / File
+
+* 偏高层应用
+* 只支持文件操作
+* 可多应用共享
+* 性能一般
+* 用于数据库时问题多
+
+---
+
 ## Namespace
 
 用于资源分组与隔离
