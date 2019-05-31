@@ -88,9 +88,30 @@ Produced by 王韬 Wang, Tao
 
 ---
 
+## Docker
+
+----
+
+### 容器环境
+
+* 基于Linux Namespaces，隔离进程空间、用户ID、文件系统、网络等系统资源
+* 使用宿主系统的Linux Kernel<sup>*</sup>，比使用虚拟机带来的性能损耗小
+
+----
+
+### Docker容器平台
+
+使Linux Namespaces更易于使用
+
+* Images: 镜像，打包产出的程序
+* Registries: 镜像仓库，镜像仓库
+* Containers: 容器，基于Docker Image启动的Linux容器
+
+---
+
 ## kubernetes集群架构
 
-* Control Plane (master)
+* Control Plane (master(s))
 * Worker nodes
 
 ---
@@ -98,7 +119,7 @@ Produced by 王韬 Wang, Tao
 ## 搭建Kubernetes集群
 
 * Docker for Mac
-* kubeadm
+* kubeadm (上海巴士数据中心/浦东崇明天翼云)
 * 阿里云托管k8s
 * ...
 
