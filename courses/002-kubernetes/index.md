@@ -1031,3 +1031,27 @@ $ kubectl apply -f uat.yaml
 
 ## 问题诊断
 
+常用命令
+```sh
+$ kubectl get (pods|deployments|statefulsets)
+$ kubectl describe (pod|deployment|statefulset) nginx
+$ kubectl logs nginx
+$ kubectl logs -f nginx
+$ kubectl exec -it nginx -- sh
+$ kubectl port-forward ...
+$ kubectl cp ...
+...
+```
+
+----
+
+常用缩写
+
+```
+--namespace => -n
+deployemtns => deploy
+statefulsets => sts
+services => svc
+pods => po
+...
+```
