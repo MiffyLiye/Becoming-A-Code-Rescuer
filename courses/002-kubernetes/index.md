@@ -593,6 +593,9 @@ metadata:
   name: nginx
 spec:
   replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
   template:
     metadata:
       name: nginx
